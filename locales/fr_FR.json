@@ -11,11 +11,14 @@
   "Oct": "octobre",
   "Nov": "novembre",
   "Dec": "décembre",
+
   "NoLogsChannel": "N'ayant pas trouvé un salon nommé `sam-logs`, je vous envoie le justificatif ici. N'hésitez pas à créer un salon nommé `sam-logs` !",
+
   "NOP_Botowner" : "Vous ne pouvez pas utiliser cette commande, elle est réservée à mon créateur !",
   "NOP_Guildban_members" : "Vous n'êtes pas autorisé(e) à bannir ! *(BAN_MEMBERS)*",
   "NOP_Guildkick_members" : "Vous n'êtes pas autorisé(e) à éjecter ! *(KICK_MEMBERS)*",
   "NOP_Guildmanage_message": "Vous n'êtes pas autorisé(e) à utiliser cette commande ! *(MANAGE_MESSAGE)*",
+
   "8ball-NoAsk" : "Que voulez-vous me demander ? *(Il faut indiquer au minimum trois mots)*",
   "8ball-A1" : "Non.",
   "8ball-A2" : "Oui.",
@@ -26,10 +29,14 @@
   "8ball-A7": "Nooooooooon !",
   "8ball-Ask": "${message.author.username} a demandé",
   "8ball-Answer": "Ma boule de cristal m'indique que...",
+
   "ascii-TooManyCharacters": "Merci de ne pas indiquer plus de 12 caractères.",
   "ascii-NoArgs": "Merci d'indiquer ce que vous voulez transformer en format ASCII.",
+
   "cashmachine-Started": "La machine-à-sous a été lancée !",
+
   "dice-Felt": "🎲 Le dé est tombé sur",
+
   "fish-EmbedTitle": "🎣 Relève la canne, vite !",
   "fish-EmbedField_Congrats": "Bravo ! Tu as pêché...",
   "fish-F1": "un poisson globe, pourquoi pas... 🐡",
@@ -43,6 +50,7 @@
   "fish-F9": "WUT ! Mais c'est un cousin de WUMPUS ! LACHE LE !!!! 🐋",
   "fish-F10": "Une baleine ! Euh, j'ai une question : Comment as-tu pu ne pas casser ta canne ?  🐳",
   "fish-F11": "une tortue ! Relâche la ! 🐢",
+
   "rps-Title": "Pierre, feuille, ciseaux",
   "rps-UserInput": "Tu as choisi...",
   "rps-BotInput": "J'ai choisi...",
@@ -56,16 +64,19 @@
   "rps-paperr2": "Ciseaux, j'ai gagné !",
   "rps-scissorsr1": "Pierre, j'ai gagné !",
   "rps-scissorsr2": "Papier, tu as gagné...",
-  "gs-Footer": "Clique sur le texte bleu pour accéder au site",
+
+  "googlesearch-Footer": "Clique sur le texte bleu pour accéder au site",
+
   "invite-Title": "Inviter SamBot",
-  "invite-Field1": "Cliquez sur l'un des liens ci-dessous",
+  "invite-Field1": "Cliquez sur le lien ci-dessous",
   "invite-NormalLink": "SamBot",
-  "invite-NoPermLink": "Aucune permission",
+
   "npms-Author": "Auteur",
   "nms-Latest": "Denières informations",
   "npms-Git":"Répertoire Git",
   "npms-Maintainers": "Collaborateur(s)",
   "npms-Update": "Mise à jour",
+
   "help-EmbedFooter": "SamBot | <>: Champ requis [<>]: Champ optionnel",
   "help-EmbedTitle": "Documentation",
   "help-EmbedDesc": "Bienvenue dans la documentation de SamBot !\n Mon préfixe actuel est __**${botconfig.prefix}**__\n${ON} ${f} Module fonctionnel ${WIP} ${f} Module en développement, risque de bugs${OFF} ${f} Module inutilisable",
@@ -77,6 +88,7 @@
   "help-EmbedField_Images": "📸 Images",
   "help-EmbedField_Mod": "🛑 Modération",
   "help-EmbedField_Dev": "🔐 Commandes réservées",
+
   "ban-NoUserMessage": "Merci d'indiquer l'utilisateur à bannir ! *(Vous n'êtes pas obligé(e) de le mentionner).*",
   "ban-defaultReason": "${bUser.user.tag} a été banni(e) par ${message.author.tag} sans donner de raison.",
   "ban-UserBypassMessage": "Je suis désolée mais je ne peux pas bannir un modérateur !",
@@ -87,6 +99,7 @@
   "ban-EmbedField_Channel": "📣 Salon",
   "ban-EmbedField_Moderator": "🛑 Modérateur",
   "ban-EmbedField_Reason": "🙀 Raison",
+
   "kick-NoUserMessage": "Merci d'indiquer l'utilisateur à éjecter ! *(Vous n'êtes pas obligé(e) de le mentionner).*",
   "kick-defaultReason": "${bUser.user.tag} a été éjecté(e) par ${message.author.tag} sans donner de raison.",
   "kick-UserBypassMessage": "Je suis désolée mais je ne peux pas éjecter un modérateur !",
@@ -97,14 +110,18 @@
   "kick-EmbedField_Channel": "📣 Salon",
   "kick-EmbedField_Moderator": "🛑 Modérateur",
   "kick-EmbedField_Reason": "🙀 Raison",
+
   "poll-NoQuestion": "Merci d'indiquer une question à poser !",
+
   "purge-EmbedTitle": "! NETTOYAGE !",
   "purge-EmbedField_Channel": "📣 Salon",
   "purge-EmbedField_Moderator": "🛑 Modérateur",
   "purge-EmbedFooter": "Les messages vieux de 14 jours ne peuvent être supprimés, c'est Discord qui me l'a dit !",
   "purge-BadArg1": "Merci d'indiquer un nombre uniquement.",
   "purge-BadArg2": "Merci d'indiquer un nombre compris en 2 et 100.",
+
   "ping-Message": ":ping_pong: Pong !\nPing : **${message.createdTimestamp - Date.now()}ms**",
+
   "roleinfo-EmbedField_Name": "🔤 Nom",
   "roleinfo-EmbedField_ID": "🆔 ID",
   "roleinfo-EmbedField_HexColor": "#⃣ Couleur",
@@ -116,6 +133,7 @@
   "roleinfo-EmbedField_Managed": "🔏 Rôle d'un Bot",
   "roleinfo-tf_True": "Oui !",
   "roleinfo-tf_False": "Non !",
+
   "serverinfo-EmbedField_Name": "🐦 Nom du serveur",
   "serverinfo-EmbedField_ID": "🆔 ID",
   "serverinfo-EmbedField_Region": "🌐 Localisation",
@@ -162,6 +180,7 @@
   "serverinfo-Region_hongkong": "Hong-Kong :flag_hk:",
   "serverinfo-Region_russia": "Russie :flag_ru:",
   "serverinfo-Region_southafrica": "Afrique du Sud :flag_za:",
+
   "userinfo-EmbedField_Username": "🃏 Pseudonyme",
   "userinfo-EmbedField_ID": "🆔 ID",
   "userinfo-EmbedField_Status": "👻 Statut",
@@ -171,6 +190,7 @@
   "userinfo-EmbedField_AccountCreatedDeate_Desc": "muser.createdAt.toString().split(' ')[2] + ' ' + month[muser.createdAt.toString().split(' ')[1]] + ' ' + muser.createdAt.toString().split(' ')[3] + ' ' + muser.createdAt.toString().split(' ')[4]",
   "userinfo-IsBot_True": "BIP. BOUP ! C'est un robot.",
   "userinfo-IsBot_False": "BIP. BOUP... Ce n'est pas un robot.",
+  "userinfo-Status_Nothing": "Ne fais rien...",
   "userinfo-Status_Online": "${DiO} Connecté(e)",
   "userinfo-Status_Idle": "${DiI} Occupé(e)",
   "userinfo-Status_DnD": "${DiD} Ne pas déranger",

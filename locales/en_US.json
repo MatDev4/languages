@@ -5,17 +5,20 @@
   "Apr": "April",
   "May": "May",
   "Ju": "June",
-  "Jul": "Jully",
+  "Jul": "July",
   "Aug": "August",
   "Sept": "September",
   "Oct": "October",
   "Nov": "November",
   "Dec": "December",
+
   "NoLogsChannel": "Having not found a salon named `sam-logs`, I send you the proof here. Feel free to create a lounge called `sam-logs`!",
+
   "NOP_Botowner" : "You can't use this command, it's reserved for my creator!",
   "NOP_Guildban_members" : "You are not allowed to ban! *(BAN_MEMBERS)*",
   "NOP_Guildkick_members" : "You are not allowed to kick! *(KICK_MEMBERS)*",
   "NOP_Guildmanage_message": "You are not allowed to use these command! *(MANAGE_MESSAGE)*",
+
   "8ball-NoAsk" : "What do you want to ask? *(A minimum of three words must be indicated)*",
   "8ball-A1" : "No.",
   "8ball-A2" : "Yes.",
@@ -26,10 +29,14 @@
   "8ball-A7": "Nooooooooo!",
   "8ball-Ask": "${message.author.username} asked",
   "8ball-Answer": "My crystal ball tells me that....",
+
   "ascii-TooManyCharacters": "Please do not enter more than 12 characters.",
   "ascii-NoArgs": "Please indicate what you want to transform into ASCII format.",
+
   "cashmachine-Started": "The cash-machine has been launched!",
+
   "dice-Felt": "🎲 The dice fell...",
+
   "fish-EmbedTitle": "🎣 Up the cane, quickly!",
   "fish-EmbedField_Congrats": "Congratulations! You fished....",
   "fish-F1": "a globe fish, why not... 🐡",
@@ -43,40 +50,45 @@
   "fish-F9": "WUT! But he's a cousin of WUMPUS! DROP IT! 🐋",
   "fish-F10": "A whale! Uh, I have a question: How could you not break your cane? 🐳",
   "fish-F11": "a turtle! Let her go! Let her go! 🐢",
+
   "rps-Title": "Rock, paper, Scissors",
   "rps-UserInput": "You choosed...",
   "rps-BotInput": "I choosed...",
   "rps-Rock": "Rock ✊",
   "rps-Paper": "Paper ✋",
   "rps-Scissors": "Scissors ✌",
-  "rps-TextChoose": "Go ahead, choose a reaction! *(If there are none, make sure I have permission to add reactions).",
+  "rps-TextChoose": "Choose a reaction! *(If there are none, make sure I have permission to add reactions).",
   "rps-rockr1": "Paper, I won!",
   "rps-rockr2": "Scissors, you won...",
   "rps-paperr1": "Rock, you won...",
   "rps-paperr2": "Scissors, I won!",
   "rps-scissorsr1": "Rock, I won!",
   "rps-scissorsr2": "Paper, you won...",
+
   "googlesearch-EmbedFooter": "Click on the blue text to access the site",
+
   "invite-EmbedTitle": "Invite SamBot",
   "invite-EmbedField_Title": "Click on one of the links below",
   "invite-EmbedField_Desc_NormalLink": "SamBot",
-  "invite-EmbedField_Desc_NoPermLink": "No permission",
+
   "npms-Author": "Author",
   "nms-Latest": "Latest",
   "npms-Git":"Git repository",
   "npms-Maintainers": "Maintainers",
   "npms-Update": "Update",
+
   "help-EmbedFooter": "SamBot | <>: Required fields [<>]: Optionnal field",
   "help-EmbedTitle": "Documentation",
-  "help-EmbedDesc": "Welcome on the SamBot's documention\n Mon prefix is actually __**${botconfig.prefix}**__\n${ON} ${f} Functional unit ${WIP} ${f} Unit under development, risk of bugs${OFF} ${f} Unusable unit",
+  "help-EmbedDesc": "Welcome on the SamBot's documention\n My prefix is actually __**${botconfig.prefix}**__\n${ON} ${f} Functional unit ${WIP} ${f} Unit under development, risk of bugs${OFF} ${f} Unusable unit",
   "help-EmbedField_Link_Title": "🎫 Links",
-  "help-EmbedField_Link_Desc": "[Invite me](https://discordapp.com/oauth2/authorize/?permissions=2146827639&scope=bot&client_id=481753714982518786)\n[My support server](https://discord.gg/Y8GgT2g)\n[Discord Bots](https://discord.gg/Y8GgT2g)",
+  "help-EmbedField_Link_Desc": "[Invite me](https://discordapp.com/oauth2/authorize/?permissions=2146827639&scope=bot&client_id=481753714982518786) | My support server](https://discord.gg/Y8GgT2g) | [Discord Bots](https://discord.gg/Y8GgT2g)",
   "help-EmbedField_Fun": "🍪 Fun",
   "help-EmbedField_Tools": "🔨 Tools",
   "help-EmbedField_Misc": "🎭 Miscellaneous",
   "help-EmbedField_Images": "📸 Images",
   "help-EmbedField_Mod": "🛑 Moderation",
   "help-EmbedField_Dev": "🔐 Reserved commands",
+
   "ban-NoUserMessage": "Please indicate the user to be banned! *(You don't have to mention it). *",
   "ban-defaultReason": "${bUser.user.tag} has been banned by ${message.author.tag} without giving a reason.",
   "ban-UserBypassMessage": "I'm sorry but I can't ban a moderator!",
@@ -87,6 +99,7 @@
   "ban-EmbedField_Channel": "📣 Channel",
   "ban-EmbedField_Moderator": "🛑 Moderator",
   "ban-EmbedField_Reason": "🙀 Reason",
+
   "kick-NoUserMessage": "Please indicate the user to be kicked! *(You don't have to mention it).*",
   "kick-defaultReason": "${bUser.user.tag} has been kicked by ${message.author.tag} without giving a reason.",
   "kick-UserBypassMessage": "Je suis désolée mais je ne peux pas éjecter un modérateur !",
@@ -97,14 +110,18 @@
   "kick-EmbedField_Channel": "📣 Channel",
   "kick-EmbedField_Moderator": "🛑 Moderator",
   "kick-EmbedField_Reason": "🙀 Reason",
+
   "poll-NoQuestion": "Please indicate a question to ask!",
+
   "purge-EmbedTitle": "- PURGE -",
   "purge-EmbedField_Channel": "📣 Channel",
   "purge-EmbedField_Moderator": "🛑 Moderator",
   "purge-EmbedFooter": "Messages that are 14 days old cannot be deleted, Discord told me so!",
   "purge-BadArg1": "Please indicate a number only.",
   "purge-BadArg2": "Please indicate a number between 2 and 100.",
+
   "ping-Message": ":ping_pong: Pong !\nPing : **${message.createdTimestamp - Date.now()}ms**",
+
   "roleinfo-EmbedField_Name": "🔤 Name",
   "roleinfo-EmbedField_ID": "🆔 ID",
   "roleinfo-EmbedField_HexColor": "#⃣ Color",
@@ -116,6 +133,7 @@
   "roleinfo-EmbedField_Managed": "🔏 Bot role",
   "roleinfo-tf_True": "Yes!",
   "roleinfo-tf_False": "No!",
+
   "serverinfo-EmbedField_Name": "🐦 Guild name",
   "serverinfo-EmbedField_ID": "🆔 ID",
   "serverinfo-EmbedField_Region": "🌐 Region",
@@ -145,7 +163,7 @@
   "serverinfo-ExplicitContentLevels_Message2": "**Scan messages from members without role.** ${f} Recommended option for servers that use roles for trusted membership.",
   "serverinfo-ExplicitContentLevels_Message3": "**Scan messages sent by all members.** ${f} Recommended option for when you want that squeakly clean shine.",
   "serverinfo-AFKParameters_TimeoutMessage": "${message.guild.afkTimeout / 60} minutes",
-  "serverinfo-AFKParameters_NoAFK_ChannelMessage": "The AFK show is not defined",
+  "serverinfo-AFKParameters_NoAFK_ChannelMessage": "The AFK lounge is not defined",
   "serverinfo-AFKParameters_NoAFK_TimeoutMessage": "AFK is not activated on the server.",
   "serverinfo-Region_brazil": "Brazil :flag_br:",
   "serverinfo-Region_eu-central": "Central Europe :flag_eu:",
@@ -162,6 +180,7 @@
   "serverinfo-Region_hongkong": "Hong Kong :flag_hk:",
   "serverinfo-Region_russia": "Russia :flag_ru:",
   "serverinfo-Region_southafrica": "Souther Africa :flag_za:",
+
   "userinfo-EmbedField_Username": "🃏 Username",
   "userinfo-EmbedField_ID": "🆔 ID",
   "userinfo-EmbedField_Status": "👻 Status",
@@ -171,6 +190,7 @@
   "userinfo-EmbedField_AccountCreatedDeate_Desc": "muser.createdAt.toString().split(' ')[2] + ' ' + month[muser.createdAt.toString().split(' ')[1]] + ' ' + muser.createdAt.toString().split(' ')[3] + 'at ' + muser.createdAt.toString().split(' ')[4]",
   "userinfo-IsBot_True": "BIP. BOUP ! It's a Bot.",
   "userinfo-IsBot_False": "BIP. BOUP... It's not a Bot.",
+  "userinfo-Status_Nothing": "Nothing...",
   "userinfo-Status_Online": "${DiO} Online",
   "userinfo-Status_Idle": "${DiI} Idle",
   "userinfo-Status_DnD": "${DiD} Do not Disturb (DnD)",
